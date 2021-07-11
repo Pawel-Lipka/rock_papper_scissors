@@ -43,5 +43,6 @@ class Game:
             
             
                 
-gra = Game()  
-gra.run(gra.user_input(),gra.computer_input())
+gra = Game()
+for i in range(3):
+    gra.run(gra.user_input(),gra.computer_input())
